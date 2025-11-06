@@ -22,10 +22,15 @@
     width: 30px;
     height: 30px;
 }
+.keyboard{
+    border: 2px solid rgb(79, 78, 78);
+    background-color: rgb(224, 222, 222);
+}
 .row{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: transparent;
 }
 .key{
     display: inline-block;
