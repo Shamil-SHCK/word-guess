@@ -24,8 +24,9 @@ key.forEach(item => {
             warn.textContent = ""; 
 
             if (i === 6) {
-                // warn.textContent = "You guessed it!";
+                warn.textContent = "You guessed it!";
                 var newbtn = document.createElement("button");
+                newbtn.classList.add("btn");
                 newbtn.textContent= "restart";
                 newbtn.value="reset";
                 cnt.append(newbtn);
