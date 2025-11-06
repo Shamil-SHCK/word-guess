@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container{
+    background-color: aqua;
+   
+    margin: 20px auto;
+    width: 60% ;
+}
+.word{
+    display: inline-block;
+    text-align: center;
+    margin:0  37% ;
+}
+.word .k{
+    display: inline-block;
+    margin: 10px auto;
+    background-color: rgb(209, 209, 204);
+    width: 30px;
+    height: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.key{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgb(138, 172, 207);
+    border: 1px solid black;
+    height:50px;
+    width:50px;
+    line-height: 30px;
+    text-align: center;
+
+}
